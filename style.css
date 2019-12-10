@@ -1,0 +1,263 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: body;
+	background-color: #004170;
+}
+h1{
+	font-size: 30;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #CEAB5D;
+}
+.red{
+	background-color: #DA291C;
+}
+.blue{
+	background-color: #004170;
+}
+.gold{
+	background-color: #CEAB5D;
+}
+.first-row{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	background-color: #grey;
+}
+.back-next{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	background-image:url("images/red_wallpaper.jfif");
+	background-size: cover;
+}
+.shuffle{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	background-image:url("images/red_wallpaper.jfif");
+	background-size: cover;
+}
+.second-row{
+	width: 100%;
+	height: 90%;
+	display: flex;
+}
+
+.info-box{
+	width: 30%;
+	height: 100%;
+	display: block;
+}
+.about{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	background-image:url("images/red_wallpaper.jfif");
+	background-size: cover;
+}
+.team-logo{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image:url("images/red_blue.gif");
+	background-size: cover;
+}
+.contain-image{
+	max-width: 90%;
+	max-height: 90%;
+}
+.center-horizontal{
+	justify-content: center;
+}
+.center-vertical{
+	align-items: center;
+}
+.player-box{
+	width: 40%;
+	height: 100%;
+	display: block;
+	background-color: black;
+}
+.player-info{
+	width:100%;
+	height:50%;
+	display: flex;
+}
+.full-body{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	background-image:url("images/red_wallpaper.jfif");
+	background-size: cover;
+}
+.hidethis{
+	display: none;
+}
+.zoom:{
+	transition: transform .2s;
+	padding: 50px;
+	margin: 0 auto;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.button:active { 
+    transform: scale(0.95, 0.95);
+}
+img:hover {cursor: grabbing;}
+.no-cursor:hover {cursor: default;}
+.all-grey:hover {filter: grayscale(100%);}
+img:active {
+	 transform:scale(0.9,0.9);
+}
+@media screen and (max-width: 800px) {
+	body {
+		width: 100%;
+		height: 130%;
+		margin: 0;
+		display: block;
+	}
+	h1{
+	font-size: 20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #CEAB5D;
+	}
+	.first-row{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	}	
+	.back-next{
+		width: calc(100%/3);
+		height:100%;
+		display: flex;
+	}
+	.shuffle{
+		width: calc(100%/3);
+		height: 100%;
+		display: flex;
+	}
+	.second-row{
+		width: 100%;
+		height: 110%;
+		display: block;
+	}
+
+	.info-box{
+		width: 100%;
+		height: 30%;
+		display: flex;
+	}
+	.about{
+		width: 60%;
+		height: 100%;
+		display: flex;
+	}
+	.team-logo{
+		width: 40%;
+		height: 100%;
+		display: flex;
+	}
+	.player-box{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		background-color: black;
+	}
+	.player-info{
+		width:50%;
+		height:100%;
+		display: flex;
+	}
+	.contain-image{
+	max-width: 90%;
+	max-height: 90%;
+	}
+	.center-horizontal{
+		justify-content: center;
+	}
+	.center-vertical{
+		align-items: center;
+	}
+	.full-body{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	background-color: #CEAB5D;
+	}
+}
+@media screen and (max-width: 600px) {
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		display: block;
+	}
+	.first-row{
+		width: 100%;
+		height: 25%;
+		display: block;
+	}	
+	.back-next{
+		width: 100%;
+		height:30%;
+		display: flex;
+	}
+	.shuffle{
+		width: 100%;
+		height: 40%;
+		display: flex;
+	}
+	.second-row{
+		width: 100%;
+		height: 225%;
+		display: block;
+	}
+
+	.info-box{
+		width: 100%;
+		height: 30%;
+		display: block;
+	}
+	.about{
+		width: 100%;
+		height: 60%;
+		display: flex;
+	}
+	.team-logo{
+		width: 100%;
+		height: 40%;
+		display: flex;
+	}
+	.player-box{
+		width: 100%;
+		height: 40%;
+		display: block;
+		background-color: black;
+	}
+	.player-info{
+		width:100%;
+		height:50%;
+		display: flex;
+	}
+	.contain-image{
+		max-width: 90%;
+		max-height: 90%;
+	}
+	.contain-two{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.center-horizontal{
+		justify-content: center;
+	}
+	.center-vertical{
+		align-items: center;
+	}
+}

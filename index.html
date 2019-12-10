@@ -1,0 +1,79 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/psg_logo.png" rel="icon" type="image/x-icon" />
+		<title>Paris Saint-German</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+	<div class="first-row">
+		<div class="back-next  center-horizontal center-vertical">
+			<img src="images/left.png" class="contain-image zoom button" onClick="backPlayer(this)">
+		</div>
+		<div class="shuffle  center-horizontal center-vertical no-cursor">
+			<center><h1>Paris Saint-Germain F.C.</h1><center>
+		</div>
+		<div class="back-next center-horizontal center-vertical">
+			<img src="images/right.png" class="contain-image zoom button" onClick="nextPlayer(this)">
+		</div>
+	</div>
+	<div class="second-row">
+		<div class="info-box">
+			<div class="about center-horizontal center-vertical">
+				<img src="images/group.png" class="contain-image all-grey">
+			</div>
+			<div class="team-logo center-horizontal center-vertical">
+				<img src="images/psg_logo.png" class="contain-image all-grey" onClick="playCrowd(this)">
+			</div>
+		</div>
+		<div class="player-box">
+			<div class="player-info center-horizontal center-vertical ">
+				<img src="images/cavani_headshot.png" class="contain-image zoom button" id="cavani" onClick="addCavani(this)">
+				<img src="images/choupo_headshot.png" class="contain-image hidethis zoom" id="choupo" onClick="addChoupo(this)">
+				<img src="images/dimaria_headshot.png" class="contain-image hidethis zoom" id="dimaria" onClick="addDimaria(this)">
+				<img src="images/draxler_headshot.png" class="contain-image hidethis zoom" id="draxler" onClick="addDraxler(this)">
+				<img src="images/icardi_headshot.png" class="contain-image hidethis zoom" id="icardi" onClick="addIcardi(this)">
+				<img src="images/kimpembe_headshot.png" class="contain-image hidethis zoom" id="kimpembe" onClick="addKimpembe(this)">
+				<img src="images/mbappe_headshot.png" class="contain-image hidethis zoom" id="mbappe" onClick="addMbappe(this)">
+				<img src="images/neymar_headshot.png" class="contain-image hidethis zoom" id="neymar" onClick="addNeymar(this)">
+				<img src="images/silva_faceshot.PNG" class="contain-image hidethis zoom" id="silva" onClick="addSilva(this)">
+				<img src="images/verratti_headshot.png" class="contain-image hidethis zoom" id="verratti" onClick="addVerratti(this)">
+				<img src="images/navas_headshot.png" class="contain-image hidethis zoom" id="navas" onClick="addNavas(this)">
+			</div>
+			<div class="player-info center-horizontal center-vertical">
+				<img src="images/cavani.gif" class="contain-image hidethis no-cursor" id="cavani-gif">
+				<img src="images/choupo.gif" class="contain-image hidethis no-cursor" id="choupo-gif">
+				<img src="images/dimaria.gif" class="contain-image hidethis no-cursor" id="dimaria-gif">
+				<img src="images/draxler.gif" class="contain-image hidethis no-cursor" id="draxler-gif">
+				<img src="images/icardi.gif" class="contain-image hidethis no-cursor" id="icardi-gif">
+				<img src="images/kimpembe.gif" class="contain-image hidethis no-cursor" id="kimpembe-gif">
+				<img src="images/mbappe.gif" class="contain-image hidethis no-cursor" id="mbappe-gif">
+				<img src="images/neymar.gif" class="contain-image hidethis no-cursor" id="neymar-gif">
+				<img src="images/silva.gif" class="contain-image hidethis no-cursor" id="silva-gif">
+				<img src="images/verratti.gif" class="contain-image hidethis no-cursor" id="verratti-gif">
+				<img src="images/navas.gif" class="contain-image hidethis no-cursor" id="navas-gif">
+			</div>
+		</div>
+			<div class="full-body center-horizontal center-vertical">
+				<img src="images/cavani_fullbody.png" class="contain-image hidethis" id="cavani-fullbody">
+				<img src="images/choupo_fullbody.PNG" class="contain-image hidethis" id="choupo-fullbody">
+				<img src="images/dimaria_fullbody.PNG" class="contain-image hidethis" id="dimaria-fullbody">
+				<img src="images/draxlar_fullbody.PNG" class="contain-image hidethis" id="draxler-fullbody">
+				<img src="images/icardi_fullbody.PNG" class="contain-image hidethis" id="icardi-fullbody">
+				<img src="images/kimpembe_fullbody.PNG" class="contain-image hidethis" id="kimpembe-fullbody">
+				<img src="images/mbappe_fullbody.PNG" class="contain-image hidethis" id="mbappe-fullbody">
+				<img src="images/neymar_fullbody.png" class="contain-image hidethis" id="neymar-fullbody">
+				<img src="images/silva_fullbody.PNG" class="contain-image hidethis" id="silva-fullbody">
+				<img src="images/verratti_fullbody.PNG" class="contain-image hidethis" id="verratti-fullbody">
+				<img src="images/keylor_fullbody.PNG" class="contain-image hidethis" id="navas-fullbody">
+			</div>
+	</div>
+	<audio src="audio/crowd.wav" type="audio/wav" id="sound_crowd"></audio>
+	<audio src="audio/robot_click.wav" type="audio/wav" id="click_sound"></audio>
+	<script src="script.js"></script>
+	</body>
+	
+</html>
