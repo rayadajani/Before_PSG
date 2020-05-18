@@ -123,24 +123,29 @@ navasfull.classList.add("hidethis");
 }
 function nextPlayer(el){
 	x = x + 1;
+	console.log(x);
 	if (x == 1) {
+		console.log("hey");
 		a.classList.add("hidethis");
 		cavgif.classList.add("hidethis");
 		cavfull.classList.add("hidethis");
 		b.classList.remove("hidethis");
 	} else if (x == 2){
+		console.log("hey");
 		b.classList.add("hidethis");
 		choupogif.classList.add("hidethis");
 		choupofull.classList.add("hidethis");
 		c.classList.remove("hidethis");
 	}
 	else if (x == 3){
+		console.log("hey");
 		c.classList.add("hidethis");
 		dimariagif.classList.add("hidethis");
 		dimariafull.classList.add("hidethis");
 		d.classList.remove("hidethis");
 	}
 		else if (x == 4){
+		console.log("hey");
 		d.classList.add("hidethis");
 		draxlergif.classList.add("hidethis");
 		draxlerfull.classList.add("hidethis");
@@ -187,5 +192,29 @@ function nextPlayer(el){
 		navasgif.classList.add("hidethis");
 		navasfull.classList.add("hidethis");
 		a.classList.remove("hidethis");
+	}
+}
+function backPlayer(el){
+	x = x - 1;
+	console.log(x);
+	if (x == 0) {
+		console.log("hey");
+		a.classList.remove("hidethis");
+		cavgif.classList.remove("hidethis");
+		cavfull.classList.remove("hidethis");
+		b.classList.add("hidethis");
+	} else if (x == 1){
+		console.log("hey");
+		b.classList.remove("hidethis");
+		choupogif.classList.remove("hidethis");
+		choupofull.classList.remove("hidethis");
+		c.classList.add("hidethis");
+	}
+	else if (x == 2){
+		console.log("hey");
+		c.classList.remove("hidethis");
+		dimariagif.classList.remove("hidethis");
+		dimariafull.classList.remove("hidethis");
+		d.classList.add("hidethis");
 	}
 }
