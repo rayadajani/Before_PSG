@@ -121,117 +121,15 @@ verrattifull.classList.add("hidethis");
 navasgif.classList.add("hidethis");
 navasfull.classList.add("hidethis");
 }
-function nextPlayer(el){
-	document.getElementById("click_sound").play();
-	x = x + 1;
-	console.log(x);
-	if (x == 1) {
-		console.log("CAVANI!!");
-		//first 
-		hideAll()
-		b.classList.remove("hidethis");
-	} else if (x == 2){
-		console.log("CHOUPO!!");
-		//second
-		hideAll()
-		c.classList.remove("hidethis");
-	}
-	else if (x == 3){
-		console.log("DIMARIA!!");
-		//third
-		hideAll()
-		d.classList.remove("hidethis");
-	}
-		else if (x == 4){
-		console.log("DRAXLER!!");
-		hideAll()
-		e.classList.remove("hidethis");
-	}
-		else if (x == 5){
-		console.log("ICARDI!!");
-		hideAll()
-		f.classList.remove("hidethis");
-	}
-		else if (x == 6){
-		console.log("KIMPEMBE!!");
-		hideAll()
-		g.classList.remove("hidethis");
-	}
-		else if (x == 7){
-		console.log("MBAPPE!!");
-		hideAll()
-		h.classList.remove("hidethis");
-	}	
-		else if (x == 8){
-		console.log("NEYMAR!!");
-		hideAll()
-		i.classList.remove("hidethis");
-	}	
-		else if (x == 9){
-		console.log("SILVA");
-		hideAll()
-		j.classList.remove("hidethis");
-	}	
-		else if (x == 10){
-		console.log("VERRATTI!!");
-		hideAll()
-		k.classList.remove("hidethis");
-	}
-		else if (x == 11){
-		hideAll()
-		alert("Refresh Page To Go Back To The First Player");
-	}
-}
-function backPlayer(el){
-	document.getElementById("click_sound").play();
-	x = x - 1;
-	console.log(x);
-	if (x == 0) {
-		//first 
-		console.log("CAVANI!!");
-		hideAll();
-		a.classList.remove("hidethis");
-	} else if (x == 1){
-		console.log("CHOUPO!!");
-		//second
-		hideAll();
-		b.classList.remove("hidethis");
-	} else if (x == 2){
-		console.log("DIMARIA!!");
-		hideAll();
-		c.classList.remove("hidethis");
-	}else if (x == 3){
-		console.log("DRAXLER!!");
-		hideAll();
-		d.classList.remove("hidethis");
-	}else if (x == 4){
-		console.log("ICARDI!!");
-		hideAll();
-		e.classList.remove("hidethis");
-	}else if (x == 5){
-		console.log("KIMPEMBE!!");
-		hideAll();
-		f.classList.remove("hidethis");
-	}else if (x == 6){
-		console.log("MBAPPE!!");
-		hideAll();
-		g.classList.remove("hidethis");
-	}else if (x == 7){
-		console.log("NEYMAR!!");
-		hideAll();
-		h.classList.remove("hidethis");
-	}else if (x == 8){
-		console.log("SILVA!!");
-		hideAll();
-		i.classList.remove("hidethis");
-	}else if (x == 9){
-		console.log("VERRATTI!!");
-		hideAll();
-		j.classList.remove("hidethis");
-	}else if (x == 10){
-		console.log("NAVAS!!");
-		hideAll();
-		k.classList.remove("hidethis");
+fuction nextPlayer(el){
+	if(b.classList.remove("hidethis")){
+	choupo.classList.remove("hidethis");
+	choupofull.classList.remove("hidethis");
+	}else if (c.classList.remove("hidethis")){
+	choupo.classList.add("hidethis");
+	choupofull.classList.add("hidethis");
+	dimaria.classList.remove("hidethis");
+	dimaria.classList.remove("hidethis");
 	}
 }
 	
