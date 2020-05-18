@@ -189,7 +189,7 @@ function nextPlayer(el){
 		a.classList.remove("hidethis");
 	}
 }
-function nextPlayer(el){
+function backPlayer(el){
 	x = x - 1;
 	if (x == 0) {
 		a.classList.remove("hidethis");
