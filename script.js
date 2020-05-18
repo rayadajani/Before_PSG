@@ -122,14 +122,8 @@ navasgif.classList.add("hidethis");
 navasfull.classList.add("hidethis");
 }
 fuction nextPlayer(el){
-	if(b.classList.remove("hidethis")){
-	choupo.classList.remove("hidethis");
-	choupofull.classList.remove("hidethis");
-	}else if (c.classList.remove("hidethis")){
-	choupo.classList.add("hidethis");
-	choupofull.classList.add("hidethis");
-	dimaria.classList.remove("hidethis");
-	dimaria.classList.remove("hidethis");
-	}
+	cavani.classList.add("hidethis");
+        cavani.classList.add("hidethis");
+	addChoupo()
 }
 	
