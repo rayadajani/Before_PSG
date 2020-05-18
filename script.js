@@ -125,69 +125,76 @@ function nextPlayer(el){
 	x = x + 1;
 	console.log(x);
 	if (x == 1) {
-		console.log("hey");
+		console.log("CAVANI");
 		a.classList.add("hidethis");
 		cavgif.classList.add("hidethis");
 		cavfull.classList.add("hidethis");
 		b.classList.remove("hidethis");
 	} else if (x == 2){
-		console.log("hey");
+		console.log("CHOUPO");
 		b.classList.add("hidethis");
 		choupogif.classList.add("hidethis");
 		choupofull.classList.add("hidethis");
 		c.classList.remove("hidethis");
 	}
 	else if (x == 3){
-		console.log("hey");
+		console.log("DIMARIA");
 		c.classList.add("hidethis");
 		dimariagif.classList.add("hidethis");
 		dimariafull.classList.add("hidethis");
 		d.classList.remove("hidethis");
 	}
 		else if (x == 4){
-		console.log("hey");
+		console.log("DRAXLER");
 		d.classList.add("hidethis");
 		draxlergif.classList.add("hidethis");
 		draxlerfull.classList.add("hidethis");
 		e.classList.remove("hidethis");
 	}
 		else if (x == 5){
+		console.log("DRAXLER");
 		e.classList.add("hidethis");
 		icardigif.classList.add("hidethis");
 		icardifull.classList.add("hidethis");
 		f.classList.remove("hidethis");
 	}
 		else if (x == 6){
+		console.log("DRAXLER");
 		f.classList.add("hidethis");
 		kimpembegif.classList.add("hidethis");
 		kimpembefull.classList.add("hidethis");
 		g.classList.remove("hidethis");
 	}
 		else if (x == 7){
+		console.log("MBAPPE");
 		g.classList.add("hidethis");
 		mbappegif.classList.add("hidethis");
 		mbappefull.classList.add("hidethis");
 		h.classList.remove("hidethis");
 	}	
 		else if (x == 8){
+		console.log("NEYMAR");
 		h.classList.add("hidethis");
 		neymargif.classList.add("hidethis");
 		neymarfull.classList.add("hidethis");
 		i.classList.remove("hidethis");
 	}	
 		else if (x == 9){
+		console.log("SILVA");
 		i.classList.add("hidethis");
 		silvagif.classList.add("hidethis");
 		silvafull.classList.add("hidethis");
 		j.classList.remove("hidethis");
 	}	
 		else if (x == 10){
+		console.log("VERRATTI");
 		j.classList.add("hidethis");
 		verrattigif.classList.add("hidethis");
 		verrattifull.classList.add("hidethis");
 		k.classList.remove("hidethis");
 	}
-		else if (x == 11){		
+		else if (x == 11){	
+		console.log("NAVAS");
 		k.classList.add("hidethis");
 		navasgif.classList.add("hidethis");
 		navasfull.classList.add("hidethis");
@@ -198,23 +205,39 @@ function backPlayer(el){
 	x = x - 1;
 	console.log(x);
 	if (x == 0) {
-		console.log("hey");
+		console.log("CAVANI");
 		a.classList.remove("hidethis");
 		cavgif.classList.remove("hidethis");
 		cavfull.classList.remove("hidethis");
 		b.classList.add("hidethis");
+		choupogif.classList.add("hidethis");
+		choupofull.classList.add("hidethis");
+		c.classList.add("hidethis");
+		dimariagif.classList.add("hidethis");
+		dimariafull.classList.add("hidethis");
 	} else if (x == 1){
-		console.log("hey");
+		console.log("CHOUPO");
 		b.classList.remove("hidethis");
 		choupogif.classList.remove("hidethis");
 		choupofull.classList.remove("hidethis");
 		c.classList.add("hidethis");
+		dimariagif.classList.add("hidethis");
+		dimariafull.classList.add("hidethis");
+		a.classList.add("hidethis");
+		cavgif.classList.add("hidethis");
+		cavfull.classList.add("hidethis");
 	}
 	else if (x == 2){
-		console.log("hey");
+		console.log("DIMARIA");
 		c.classList.remove("hidethis");
 		dimariagif.classList.remove("hidethis");
 		dimariafull.classList.remove("hidethis");
 		d.classList.add("hidethis");
+		a.classList.add("hidethis");
+		cavgif.classList.add("hidethis");
+		cavfull.classList.add("hidethis");
+		b.classList.add("hidethis");
+		choupogif.classList.add("hidethis");
+		choupofull.classList.add("hidethis");
 	}
 }
