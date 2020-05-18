@@ -189,23 +189,3 @@ function nextPlayer(el){
 		a.classList.remove("hidethis");
 	}
 }
-function backPlayer(el){
-	x = x - 1;
-	if (x == 0) {
-		a.classList.remove("hidethis");
-		cavgif.classList.remove("hidethis");
-		cavfull.classList.remove("hidethis");
-		b.classList.add("hidethis");
-	} else if (x == 1){
-		b.classList.remove("hidethis");
-		choupogif.classList.remove("hidethis");
-		choupofull.classList.remove("hidethis");
-		c.classList.add("hidethis");
-	}
-	else if (x == 2){
-		c.classList.remove("hidethis");
-		dimariagif.classList.remove("hidethis");
-		dimariafull.classList.remove("hidethis");
-		d.classList.add("hidethis");
-	}
-}
